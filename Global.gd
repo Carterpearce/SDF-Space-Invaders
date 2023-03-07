@@ -7,6 +7,6 @@ var automaticFiring = false
 var scoringInformation = {
 	"currentScore": 0,
 	"currentPlayer": "User",
-	"highScore": 0,
+	"highScore": [0,0,0],
 	"highScorePlayersName": "winner"
 }
