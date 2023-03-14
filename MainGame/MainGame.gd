@@ -17,4 +17,8 @@ func _ready():
 	print("game Over")
 	get_tree().change_scene("res://Menu/Menu.tscn")
 
+func _process(delta):
+	$HUD/CurrentScore.text = str(GlobalVariables.scoringInformation["currentScore"])
+	if get_tree().get_nodes_in_group("Enemy").size() == 0:
+		get_tree().change_scene("res://MainGame/WinScene.tscn")
 
