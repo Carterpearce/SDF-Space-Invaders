@@ -22,7 +22,8 @@ Enemy 2:
 Enemy 3:
 ![Enemy 3](Images/download%20(1).jpeg)
 
-### The shield:
+### The shield: 
+
 
 
 
@@ -48,5 +49,11 @@ gantt
     section Design
     project Overview:05-04-23, 1d
     project plan: 05-04-23, 24-04-23
+
+    section Implementation 
+    UI: 05-04-23, 1d
+
+    Testing: 05-04-23, 1d
+
 
 ```
