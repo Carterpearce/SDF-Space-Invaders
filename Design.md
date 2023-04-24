@@ -51,9 +51,14 @@ gantt
     project plan: 05-04-23, 24-04-23
 
     section Implementation 
-    UI: 05-04-23, 1d
 
-    Testing: 05-04-23, 1d
+    Player health: 26-04-23, 1d 
+    space station: 28-04-23, 5d
+    Shield: 03-05-23, 4d  
+    
+    UI: 26-04-23, 04-06-23
+    Testing: 05-04-23, 07-06-23
+    Final submission: 07-06-23, 1d
 
 
 ```
