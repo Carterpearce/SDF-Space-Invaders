@@ -48,5 +48,5 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/automaticFiring" to="VBoxContainer/HBoxContainer/automaticFiring" method="_on_automaticFiring_pressed"]
-[connection signal="pressed" from="VBoxContainer/return" to="VBoxContainer/return" method="_on_return_pressed"]
 [connection signal="pressed" from="VBoxContainer/return" to="VBoxContainer/HBoxContainer/automaticFiring" method="_on_return_pressed"]
+[connection signal="pressed" from="VBoxContainer/return" to="VBoxContainer/return" method="_on_return_pressed"]
