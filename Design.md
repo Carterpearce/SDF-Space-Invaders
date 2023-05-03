@@ -23,12 +23,12 @@ Enemy 3:
 ![Enemy 3](Images/download%20(1).jpeg)
 
 ### The shield: 
-Another new feature in this version of space invaders is the sheild that can be placed right in front of you at any time and will block all bullets including your own. it will only be up for 5 seconds and it will have a cooldown timer of 15 seconds. the shield will be used mainly to protect the space station however it can be used to protect the player. 
+Another new feature in this version of space invaders is the sheild that can be placed right in front of you at any time and will block all bullets including your own. It will only be up for 5 seconds and it will have a cooldown timer of 15 seconds. the shield will be used mainly to protect the space station however it can be used to protect the player. 
 
 
 
 ### Space Station:
-the space station will be another thing that the player has to defend. 
+The space station will be another thing that the player has to defend. 
 
 
 # Behaviour - User journey
@@ -54,12 +54,12 @@ gantt
     project plan: 05-04-23, 24-04-23
 
     section Implementation 
-
     Player health: 26-04-23, 1d 
     space station: 28-04-23, 5d
     Shield: 03-05-23, 4d  
     Barriers: 08-05-23, 1d
     update icons: 09-05-23, 1d
+    enemy health: 10-05-23, 1d
     
     UI: 26-04-23, 04-06-23
     Testing: 05-04-23, 07-06-23
