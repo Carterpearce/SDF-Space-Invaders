@@ -28,7 +28,8 @@ Another new feature in this version of space invaders is the sheild that can be 
 
 
 ### Space Station:
-The space station will be another thing that the player has to defend. 
+The space station will be another point that the player has to defend. it will be positioned at the bottom middle of the screen. the enemies win if they destroy you or the space station. however the enemies will not target the space station. they will shoot at the same speed with the same amount of time each shot. however the enemies will shoot fast enough that there is a good chance the enemies will hit both the player and the space station. the
+ space station will be have 3 hit points. 
 
 
 # Behaviour - User journey
