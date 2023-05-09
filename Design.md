@@ -25,8 +25,6 @@ Enemy 3:
 ### The shield: 
 Another new feature in this version of space invaders is the sheild that can be placed right in front of you at any time and will block all bullets including your own. It will only be up for 5 seconds and it will have a cooldown timer of 15 seconds. the shield will be used mainly to protect the space station however it can be used to protect the player. 
 
-
-
 ### Space Station:
 The space station will be another point that the player has to defend. it will be positioned at the bottom middle of the screen. the enemies win if they destroy you or the space station. however the enemies will not target the space station. they will shoot at the same speed with the same amount of time each shot. however the enemies will shoot fast enough that there is a good chance the enemies will hit both the player and the space station. the
  space station will be have 3 hit points. 
@@ -34,7 +32,20 @@ The space station will be another point that the player has to defend. it will b
 
 # Behaviour - User journey
 
+```mermaid
+journey
+    title User journey
+        section Menu
+            Load main menu: 5: the player
+            press options button: 5: the player
+            change features(opional): 5: the player
+            Perform site Actions:5: the player
+        section Logoff
+            Press Logoff Button in Navbar:5: the player
+            Close Browser:5: the player
 
+
+```
 # Planning diagram - Project plan
 
 ```mermaid  
@@ -60,7 +71,8 @@ gantt
     Shield: 03-05-23, 4d  
     Barriers: 08-05-23, 1d
     update icons: 09-05-23, 1d
-    enemy health: 10-05-23, 1d
+    enemy types: 12-05-23, 5d
+    enemy health: 11-05-23, 7d
     
     UI: 26-04-23, 04-06-23
     Testing: 05-04-23, 07-06-23
