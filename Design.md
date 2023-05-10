@@ -39,10 +39,21 @@ journey
             Load main menu: 5: the player
             press options button: 5: the player
             change features(opional): 5: the player
-            Perform site Actions:5: the player
-        section Logoff
-            Press Logoff Button in Navbar:5: the player
-            Close Browser:5: the player
+            returen to main menu:5: the player
+            press the start game button:5: the player
+        section Game
+            move around(dodge enemy bullets): 5: the player
+            shoot enemies: 5: the player
+            defend station: 5: the player
+            place sheild: 5: the player
+            kill all enemies: 5: the player
+        section if timer runs out
+            timer runs out: 5: The timer
+            player is sent to the menu: 5: the timer
+            press start game button to try again: 5: the player
+        section if all enemies are defeated
+            given score: 5: score
+            press back button to return to menu: 5: the player
 
 
 ```
