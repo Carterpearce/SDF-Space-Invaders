@@ -48,7 +48,7 @@ journey
             place sheild: 5: the player
             kill all enemies: 5: the player
         section if timer runs out
-            timer runs out: 5: The timer
+            timer runs out: 5: the timer
             player is sent to the menu: 5: the timer
             press start game button to try again: 5: the player
         section if all enemies are defeated
