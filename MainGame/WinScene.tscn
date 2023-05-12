@@ -1,7 +1,6 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://MainGame/WinScene.gd" type="Script" id=1]
-[ext_resource path="res://MainGame/back to menu Button.gd" type="Script" id=2]
 
 [sub_resource type="DynamicFontData" id=1]
 font_path = "res://MainGame/Alkatra/Alkatra-VariableFont_wght.ttf"
@@ -13,10 +12,10 @@ font_data = SubResource( 1 )
 [node name="WinScene " type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 9.10357
-margin_top = 13.2964
-margin_right = 9.10352
-margin_bottom = 13.2964
+margin_left = 1.73716
+margin_top = 4.70222
+margin_right = 1.73718
+margin_bottom = 4.70221
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -35,22 +34,20 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="back " type="Button" parent="."]
-margin_left = 7.36642
-margin_top = 4.91096
-margin_right = 116.366
-margin_bottom = 42.911
-script = ExtResource( 2 )
+[node name="Button" type="Button" parent="."]
+margin_right = 98.0
+margin_bottom = 34.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 20.8716
-margin_top = 13.5445
-margin_right = 131.872
-margin_bottom = 32.5445
-text = "Back to Menu"
+margin_left = 8.82196
+margin_top = 8.82187
+margin_right = 95.822
+margin_bottom = 45.8219
+text = "back to menu"
 __meta__ = {
 "_edit_use_anchors_": false
 }
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

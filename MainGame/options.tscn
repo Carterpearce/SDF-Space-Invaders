@@ -7,7 +7,9 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 6.46167
+margin_top = 1.16638
 margin_right = 6.46167
+margin_bottom = 1.16638
 __meta__ = {
 "_edit_use_anchors_": false
 }
