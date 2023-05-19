@@ -1,6 +1,5 @@
 [gd_scene load_steps=8 format=2]
 
-[ext_resource path="res://Images/tie.png" type="Texture" id=1]
 [ext_resource path="res://Menu/PaletteMosaic-Regular.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Menu/buttonFont.tres" type="DynamicFont" id=3]
 [ext_resource path="res://Menu/Start Game Button.gd" type="Script" id=4]
@@ -11,10 +10,14 @@
 size = 55
 font_data = ExtResource( 2 )
 
+[sub_resource type="StreamTexture" id=2]
+flags = 4
+load_path = "res://.import/download-removebg-preview.png-d9f63e16ab64c8d8268738e9cd06016d.stex"
+
 [node name="MenuMenu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_bottom = 8.0
+margin_bottom = -1.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 __meta__ = {
@@ -24,10 +27,10 @@ __meta__ = {
 [node name="Layout" type="VBoxContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 1.43198
-margin_top = 3.28266
-margin_right = 1.43201
-margin_bottom = 3.28265
+margin_left = -0.15469
+margin_top = -1.47735
+margin_right = -0.154663
+margin_bottom = -1.47736
 size_flags_horizontal = 3
 size_flags_vertical = 3
 __meta__ = {
@@ -51,29 +54,29 @@ align = 1
 [node name="Main" type="HBoxContainer" parent="Layout"]
 margin_top = 84.0
 margin_right = 1280.0
-margin_bottom = 710.0
+margin_bottom = 701.0
 size_flags_vertical = 3
 
 [node name="Screenshot" type="TextureRect" parent="Layout/Main"]
-margin_right = 351.0
-margin_bottom = 626.0
-texture = ExtResource( 1 )
+margin_right = 270.0
+margin_bottom = 617.0
+texture = SubResource( 2 )
 
 [node name="Buttons" type="VBoxContainer" parent="Layout/Main"]
-margin_left = 355.0
+margin_left = 274.0
 margin_right = 1280.0
-margin_bottom = 626.0
+margin_bottom = 617.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="GameScenes" type="VBoxContainer" parent="Layout/Main/Buttons"]
-margin_right = 925.0
-margin_bottom = 626.0
+margin_right = 1006.0
+margin_bottom = 617.0
 size_flags_vertical = 3
 
 [node name="Start Game Button" type="Button" parent="Layout/Main/Buttons/GameScenes"]
-margin_right = 925.0
-margin_bottom = 206.0
+margin_right = 1006.0
+margin_bottom = 203.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -81,9 +84,9 @@ text = "Start Game"
 script = ExtResource( 4 )
 
 [node name="Options" type="Button" parent="Layout/Main/Buttons/GameScenes"]
-margin_top = 210.0
-margin_right = 925.0
-margin_bottom = 416.0
+margin_top = 207.0
+margin_right = 1006.0
+margin_bottom = 410.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -94,9 +97,9 @@ __meta__ = {
 }
 
 [node name="Quit" type="Button" parent="Layout/Main/Buttons/GameScenes"]
-margin_top = 420.0
-margin_right = 925.0
-margin_bottom = 626.0
+margin_top = 414.0
+margin_right = 1006.0
+margin_bottom = 617.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -104,9 +107,9 @@ text = "Quit"
 script = ExtResource( 6 )
 
 [node name="Credits" type="HBoxContainer" parent="Layout"]
-margin_top = 714.0
+margin_top = 705.0
 margin_right = 1280.0
-margin_bottom = 728.0
+margin_bottom = 719.0
 
 [node name="Label" type="Label" parent="Layout/Credits"]
 margin_right = 189.0
