@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Audio/backgroundMusic.wav" type="AudioStream" id=1]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
@@ -7,7 +7,8 @@
 [ext_resource path="res://Enemy/Enemies.gd" type="Script" id=5]
 [ext_resource path="res://ExampleCode.gd" type="Script" id=6]
 [ext_resource path="res://MainGame/KinematicBody2D.tscn" type="PackedScene" id=7]
-[ext_resource path="res://Enemy/Enemy.gd" type="Script" id=8]
+[ext_resource path="res://MainGame/enemy 2.gd" type="Script" id=8]
+[ext_resource path="res://MainGame/bullet-enemy 2.gd" type="Script" id=9]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 20.9622, 380.576 )
@@ -157,12 +158,17 @@ pitch_scale = 0.01
 autoplay = true
 
 [node name="enemy type 2" type="Node2D" parent="."]
+script = ExtResource( 9 )
 
-[node name="enemy 2" parent="enemy type 2" instance=ExtResource( 7 )]
+[node name="enemy 2" parent="enemy type 2" groups=[
+"enemy",
+] instance=ExtResource( 7 )]
 position = Vector2( 1141.6, 201.461 )
 script = ExtResource( 8 )
 
-[node name="enemy 3" parent="enemy type 2" instance=ExtResource( 7 )]
+[node name="enemy 3" parent="enemy type 2" groups=[
+"enemy",
+] instance=ExtResource( 7 )]
 position = Vector2( 1042.8, 201.461 )
 script = ExtResource( 8 )
 
