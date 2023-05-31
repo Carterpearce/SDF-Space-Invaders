@@ -15,7 +15,6 @@ func _physics_process(delta):
 			pass
 		else:
 			GlobalVariables.enemyBulletInstanceCount -= 1
-			#print("Enemy Bullets: ", GlobalVariables.enemyBulletInstanceCount)
 			if "Player" in collidedObject.collider.name:
 				collidedObject.get_collider().queue_free()
 				get_tree().change_scene("res://Menu/Menu.tscn")

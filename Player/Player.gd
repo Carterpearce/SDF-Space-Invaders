@@ -3,9 +3,11 @@ extends KinematicBody2D
 var movement_speed = 200
 var bulletSource = preload("res://Bullet/Bullet.tscn")
 
+
 func _ready():
 	set_process(true)
 	set_physics_process(true)
+	GlobalVariables.Player = self
 
 func _process(delta):
 	if GlobalVariables.automaticFiring:
@@ -31,3 +33,5 @@ func _physics_process(delta):
 		move_and_collide(Vector2(0, movement_speed * delta))
 	if Input.is_action_pressed("ui_up"):
 		move_and_collide(Vector2(0, -movement_speed * delta))
+		
+
