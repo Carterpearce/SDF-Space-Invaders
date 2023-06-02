@@ -61,7 +61,7 @@ text = "0"
 position = Vector2( -1.53629, 369.479 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Border_Left"]
-position = Vector2( -5.37704, -0.768158 )
+position = Vector2( -14.8971, -3.94153 )
 shape = SubResource( 1 )
 
 [node name="Border_Right" type="Area2D" parent="." groups=[
@@ -112,7 +112,7 @@ position = Vector2( 330.402, 294.815 )
 position = Vector2( 5.01413, 294.883 )
 
 [node name="Enemy20" parent="Enemies" instance=ExtResource( 3 )]
-position = Vector2( 113.785, 294.815 )
+position = Vector2( 115.217, 294.815 )
 
 [node name="Enemy21" parent="Enemies" instance=ExtResource( 3 )]
 position = Vector2( -209.299, 294.883 )
@@ -165,7 +165,6 @@ script = ExtResource( 5 )
 ] instance=ExtResource( 7 )]
 position = Vector2( 1141.6, 201.461 )
 script = ExtResource( 9 )
-health = 2
 
 [node name="Enemy18" parent="enemy type 2" groups=[
 "Enemy",
@@ -173,123 +172,123 @@ health = 2
 ] instance=ExtResource( 7 )]
 position = Vector2( 1042.8, 201.461 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy17" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 942.095, 201.461 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy16" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 236.245, 203.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy15" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 332.195, 202.411 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy14" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 434.795, 201.461 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy13" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 537.395, 201.461 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy12" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 638.095, 201.461 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy11" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 740.695, 201.461 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy10" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 842.345, 203.048 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy9" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
-position = Vector2( 1065.9, 108.998 )
+position = Vector2( 1070.2, 107.566 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy8" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 972.495, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy7" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 872.745, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy6" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 774.895, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy5" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 672.295, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy4" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 569.695, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy3" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 468.995, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy2" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
 position = Vector2( 372.095, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
 
 [node name="Enemy" parent="enemy type 2" groups=[
 "Enemy",
 ] instance=ExtResource( 7 )]
-position = Vector2( 269.495, 108.361 )
+position = Vector2( 270.927, 108.361 )
 script = ExtResource( 9 )
-health = 2
+health = 3
