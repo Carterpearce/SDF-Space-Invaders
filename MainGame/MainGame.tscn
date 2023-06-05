@@ -24,7 +24,7 @@ script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-countdownMax = 25
+countdownMax = 30
 
 [node name="HUD" type="HBoxContainer" parent="."]
 margin_right = 40.0
@@ -74,7 +74,7 @@ position = Vector2( -5.37704, -0.768158 )
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 642.94, 669.056 )
+position = Vector2( 498.553, 654.776 )
 
 [node name="Border_Top" type="KinematicBody2D" parent="." groups=[
 "top",
