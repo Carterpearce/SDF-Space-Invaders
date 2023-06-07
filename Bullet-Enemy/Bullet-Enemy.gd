@@ -14,8 +14,12 @@ func _physics_process(delta):
 		if "Enemy" in collidedObject.collider.name:
 			pass
 		else:
+			print(collidedObject.collider.name)
 			GlobalVariables.enemyBulletInstanceCount -= 1
 			if "Player" in collidedObject.collider.name:
 				collidedObject.get_collider().queue_free()
 				get_tree().change_scene("res://Menu/Menu.tscn")
-			queue_free()
+			if "SpaceStation" in collidedObject.collider.name:
+				collidedObject.collider.reduceHealth()
+			queue_free() 
+			
