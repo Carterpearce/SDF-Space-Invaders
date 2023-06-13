@@ -75,7 +75,7 @@ position = Vector2( -5.37704, -0.768158 )
 shape = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 498.553, 654.776 )
+position = Vector2( 396.883, 647.616 )
 
 [node name="Border_Top" type="KinematicBody2D" parent="." groups=[
 "top",
@@ -295,5 +295,5 @@ script = ExtResource( 9 )
 health = 3
 
 [node name="SpaceStation" parent="." instance=ExtResource( 8 )]
-position = Vector2( 644.19, 658.47 )
+position = Vector2( 638.462, 629.83 )
 health = 5
