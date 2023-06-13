@@ -43,7 +43,7 @@ journey
             defend station: 5: the player
             place sheild: 5: the player
             kill all enemies: 5: the player
-        section if timer runs out
+        section if game lost
             timer runs out: 5: the timer
             player is sent to the menu: 5: the timer
             press start game button to try again: 5: the player
