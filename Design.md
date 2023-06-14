@@ -45,6 +45,7 @@ journey
             kill all enemies: 5: the player
         section if game lost
             timer runs out: 5: the timer
+            space station destroyed: 5: space station
             player is sent to the menu: 5: the timer
             press start game button to try again: 5: the player
         section if all enemies are defeated
